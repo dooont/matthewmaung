@@ -1,0 +1,140 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+/* .navbar-nav {
+  margin-left: auto;
+} */
+
+/* * {
+  border: 1px solid red;
+} */
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("img/portfolio-hero-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  /* padding: 20%; */
+}
+
+body {
+  background-color: #EEE2DC;
+  position: relative;
+}
+
+h1, h2, h3 {
+  font-family: 'Anton', sans-serif;
+  margin: 0!important;
+}
+
+p, a {
+  font-family: 'Kanit', sans-serif;
+}
+
+.navbar {
+  background-color: #123C69;
+}
+
+#home-target, #mission-target, #skills-target #contact-target{
+  position: relative;
+  top: -100px;
+}
+
+.nav-item {
+  color: #EDC7B7;
+}
+
+.hero-text {
+  text-align: center;
+  color: #EEE2DC;
+  margin: 20px
+}
+
+.hero-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img.avatar {
+  border-radius: 50%;
+  max-width: 40%;
+  /* height: auto; */
+  border: 4px solid #EEE2DC;
+  aspect-ratio: 1;
+  object-fit: cover;
+  margin-top: 20px;
+ 
+}
+
+.avatarBorder {
+  text-align: center;  
+}
+
+#mission-section {
+  margin: 0, 20%;
+  padding: 2.5vh 10vw;
+}
+
+
+#mission-text {
+  font-size: 18px;
+  padding: 10px;
+  line-height: 50px;
+}
+
+#side-image {
+  /* float: left; */
+  max-width: 350px;
+  max-height: 465px;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#skills-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+#bootstrap-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  padding: 20px;
+}
+
+@media screen and (min-width: 780px) {
+  #bootstrap-img {
+    margin-top: 10%;
+  }
+}
+
+#footer-section {
+  width: 100%;
+  height: 50px;
+  background-color: #123C69;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot-text {
+  margin-left: 10px;
+  color: #EEE2DC;
+}
+
+/*target="_blank" if you want to make someone open a new tab in another link*/
