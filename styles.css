@@ -1,0 +1,21 @@
+.navbar {
+    width: 80%;
+    border: 2px solid black;
+    margin-top: 5px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    
+}
+
+.navbar-brand {
+    flex-grow: 1;
+}
+
+.navbar .container-fluid > div{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
