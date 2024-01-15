@@ -34,10 +34,11 @@
 .nav-link:hover, .nav-link.active:hover {
     color: white;
 }
-/* 
-#title-slide {
-    width: 80%;
-} */
+
+.navbar-toggler {
+    border-radius: 0px;
+    border: 0mm;
+}
 
 .hero-container {
     margin-top: 20px;
@@ -81,7 +82,7 @@ h1 {
     font-family:'Playfair', serif;
 }
 
-h2 {
+h3 {
     font-size: 30px;
     font-family: 'Lato', sans-serif;
 }
@@ -92,4 +93,44 @@ h2 {
 
 .im-matthew {
     text-align: right;
+}
+
+.about-me-container{
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-me {
+    padding: 10px;
+    flex: 1;
+    margin-top: 2%;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.horizontal-line {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    height: 1px; /* Line thickness */
+    border: 0; /* Remove default border */
+
+}
+
+.width-80 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-family:'Playfair', serif;
+    font-size: 50px;
+    margin-left: 5%;
 }
