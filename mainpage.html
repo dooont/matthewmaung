@@ -30,16 +30,16 @@
 <body>
     <!-- Navbar -->
     <div class="navbar-container">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg navbar-collapse-md navbar-collapse-sm">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Matthew Maung</a>
             </div>
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <div class="container-fluid navbar-button">
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+                </button> -->
                 <div class="collapse navbar-collapse " id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -100,12 +100,27 @@
     <!--What i've been working on/highlight experiences-->
     <section id="recent-experiences">
         <div class="width-80">
-            <h2>Recently, I've been...</h2>
+            <h2 class="extra-padding">Things I've been working on</h2>
         </div>
-        <div class="recent-parent">
-            <div class="recent-container">
-                <h3>Example Project</h3>    
-                <img alt="relevant project photo">
+        <div class="recent-parent width-80 row">
+            <div class="recent-container col-lg-4 col-md-auto col-sm-12">
+                <h3>Primary Assembly</h3>    
+                <div class="image-container">
+                    <img src="img/primary-assembly.png" alt="relevant project photo">
+                </div>
+            </div>
+            <div class="recent-container col-lg-4 col-md-auto col-sm-12">
+                <h3>Pokedex Project</h3>   
+                <div class="image-container">
+                    <img src="img/pokeball.png"alt="relevant project photo">
+                </div> 
+            </div>
+            <div class="recent-container col-lg-4 col-md-auto col-sm-12">
+                <h3>Example Project</h3>  
+                <div class="image-container">
+                    <img alt="relevant project photo">
+                </div>   
+                
             </div>
         </div>
     </section>

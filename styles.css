@@ -7,6 +7,12 @@
     font-size: 18px;
 }
 
+/* .navbar-button {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+} */
+
 .navbar-container {
     display: flex;
     justify-content: center; /* Center horizontally */
@@ -133,4 +139,23 @@ h2 {
     font-family:'Playfair', serif;
     font-size: 50px;
     margin-left: 5%;
+}
+
+.extra-padding {
+    padding: 10px;
+}
+
+.recent-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    object-fit: fill;
+    border-radius: 5px;
 }
