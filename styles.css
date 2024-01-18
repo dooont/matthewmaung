@@ -153,9 +153,82 @@ h2 {
     flex-direction: column;
 }
 
+.image-container {
+    max-width: 200px;   
+    max-height: 200px;
+    overflow: hidden;
+}
+
 img{
-    width: 300px;
-    height: auto;
-    object-fit: fill;
+    max-width: 280px;
+    width: 100%;    
+    height: 100%;
+    object-fit: cover;
     border-radius: 5px;
+    aspect-ratio: 1/1;
+}
+
+.recent-parent {
+    padding-bottom: 20px;
+}
+
+/* General Form Styling */
+.email-form {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Lato', sans-serif;
+}
+
+/* Style for Labels */
+.email-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style for Input Fields and Text Area */
+.email-form input[type="text"],
+.email-form input[type="email"],
+.email-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Make sure padding doesn't increase the width */
+}
+
+/* Style for Text Area */
+.email-form textarea {
+    height: 100px;
+    resize: vertical; /* Allows vertical resizing, not horizontal */
+}
+
+/* Style for the Submit Button */
+.email-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.email-form button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+/* Responsive Design */
+@media (max-width: 80%) {
+    .email-form {
+        width: 100%;
+        padding: 15px;
+    }
 }
