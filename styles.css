@@ -29,6 +29,7 @@ section {
     justify-content: center; /* Center horizontally */
 }
 
+
 .nav-item {
     border-radius: 5px;
 }
@@ -47,8 +48,12 @@ section {
     background-color: black;
 }
 
-.nav-link:hover, .nav-link.active:hover {
+.nav-link:hover {
     color: white;
+}
+
+.show {
+    color: white !important;
 }
 
 .navbar-toggler {
