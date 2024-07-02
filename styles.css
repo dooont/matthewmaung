@@ -315,6 +315,21 @@ a {
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
+.card:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:not(:hover) {
+    transform: scale(1);
+    box-shadow: none;
+}
+
 .card img {
     width: 100%;
     height: 370px;
@@ -354,4 +369,22 @@ a {
     display: flex;
     gap: 10px;
     padding: 15px;
+}
+
+.about-me-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.big-text {
+    font-size: 48px;
+    text-align: center;
+}
+
+#words {
+    display: inline-block;
+    padding: 10px;
 }
