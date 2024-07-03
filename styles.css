@@ -388,3 +388,98 @@ a {
     display: inline-block;
     padding: 10px;
 }
+
+.glass-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+/* .glass-photo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -1;
+}
+
+.nyu-block {
+    background-color: #57068c;
+    width: 60%;
+    height: 20%;
+    
+}
+
+.glass-text {
+    color: white;
+    font-size: 5.5vw;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-align: center;
+} */
+
+.glass-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.image-text-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nyu-block {
+    background-color: #57068c;
+    width: 60%;
+    max-width: 60%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    /* margin-top: 10%; */
+}
+
+.glass-text {
+    color: white;
+    font-size: 5.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.glass-hero-image {
+    position: relative;
+    height: 100vh; /* Make the hero image full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass-size {
+    font-size: 24px;
+}
