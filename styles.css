@@ -463,6 +463,10 @@ a {
     /* margin-top: 10%; */
 }
 
+.nyu-block:hover {
+    background-color: #45057a;
+}
+
 .glass-text {
     color: white;
     font-size: 5.5vw;
@@ -483,3 +487,4 @@ a {
 .glass-size {
     font-size: 24px;
 }
+
