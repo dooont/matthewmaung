@@ -1,18 +1,20 @@
-function cycleWords() {
-  var words = [
-      "Hello! My name is Matthew",
-      "你好！ 我叫张智谦",
-      "안영하십니다! 저는 매튜입니다",
-      "¡Hola! Me llamo Mateo"
-  ],
-  i = 0;
-  setInterval(function(){
-      $('#words').fadeOut(function(){
-          $(this).html(words[i = (i + 1) % words.length]).fadeIn();
-      });
-  }, 3000);
-}
 
-$(document).ready(function() {
-  cycleWords();
+// script.js
+document.addEventListener("DOMContentLoaded", function() {
+  const textElement = document.getElementById("words");
+  const text = " Software Engineer";
+  let index = 0;
+
+  function type() {
+    if (index < text.length) {
+      textElement.innerHTML += text.charAt(index);
+      index++;
+      setTimeout(type, 100); // Adjust the speed here
+    } else {
+      textElement.style.borderRight = "none"; // Remove cursor after typing
+    }
+  }
+
+  textElement.innerHTML = ""; // Clear initial text
+  type();
 });

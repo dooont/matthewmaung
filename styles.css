@@ -379,6 +379,37 @@ a {
     height: 100vh;
 }
 
+.static-text span {
+    white-space: nowrap;
+    display: inline-block;
+    animation: typing 4s steps(1, end), blink-caret 0.75s step-end;
+}
+
+.static-text {
+    margin-left: 3%;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 90%;
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: orange;
+    }
+}
+
+
 .big-text {
     font-size: 48px;
     text-align: center;
@@ -478,7 +509,8 @@ a {
 
 .glass-hero-image {
     position: relative;
-    height: 100vh; /* Make the hero image full viewport height */
+    height: 100vh;
+    /* Make the hero image full viewport height */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -488,3 +520,42 @@ a {
     font-size: 24px;
 }
 
+.glass-windows {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.glass-left {
+    text-align: left;
+}
+
+.glass-right {
+    text-align: right;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.glass-windows h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.experience-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.photo-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
