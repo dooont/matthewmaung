@@ -546,6 +546,12 @@ a {
     margin-bottom: 20px;
 }
 
+.window-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 .experience-wrapper {
     display: flex;
     justify-content: space-between;
