@@ -8,7 +8,7 @@
 
     <!--script for emailing me-->
     <script src="emailme.js"></script>
-
+    
     <!-- Bootstrap links for css and js-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -20,10 +20,10 @@
         crossorigin="anonymous"></script>
 
     <!--Playfair Display SemiBold 600 (meant for titles) | Lato Regular 400 (meant for paragraphs)-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@600&display=swap"
-        rel="stylesheet">
+        rel="stylesheet"> -->
 
     <!-- styles.css -->
     <link href="styles.css" rel="stylesheet" type="text/css" />
@@ -49,9 +49,9 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="aboutme.html">About Me</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="https://drive.google.com/file/d/1dq9CzSy-sYRMATnlVekTgCIJ8lRe9i9T/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
                         </li>
@@ -70,8 +70,8 @@
     <section id="title-slide">
         <div class="hero-container">
             <div class="hero-text">
-                <h1 class="hey-there">Hey there!</h1>
-                <h3 class="im-matthew">I'm Matthew</h3>
+                <h1 class="hey-there">Heyo! I'm Matthew</h1>
+                <h3 class="im-matthew">An aspiring<span id="words"> Data Engineer</span></h3>
             </div>
             <div class="hero-image">
                 <div class="avatarBorder">
@@ -88,7 +88,7 @@
     </section>
     <hr class="horizontal-line">
     <!--What i've been working on/highlight experiences-->
-    <section id="recent-experiences">
+    <!-- <section id="recent-experiences">
         <div class="width-80">
             <h2 class="extra-padding">What I've Been Up To</h2>
         </div>
@@ -232,7 +232,153 @@
                 </div>
             </div>
         </div>
+    </section> -->
+    <section id="recent-experiences">
+        <div class="width-80">
+            <h2 class="extra-padding">What I've Been Up To</h2>
+        </div>
+        <div class="recent-parent width-80 row" style="display: flex; flex-direction: row;">
+            <!-- Internships Column -->
+            <div class="card-container col-xl-6 col-lg-6 col-md-12 col-sm-12" style="display: flex; flex-direction: column;">
+                <h3>Internships</h3>
+                <div class="card">
+                    <div class="img-card-container">
+                        <img src="img/directvlogo.png" alt="DirecTV Internship">
+                    </div>
+                    <div class="card-content">
+                        <h3>DirecTV Summer Internship 2024</h3>
+                        <p><strong>Data Engineering Intern</strong></p>
+                        <p>Developed internal tools in Snowflake and Databricks to assist machine learning modules.</p>
+                        <div class="tags">
+                            <div class="tag">SQL</div>
+                            <div class="tag">PySpark</div>
+                            <div class="tag">Snowflake</div>
+                            <div class="tag">Databricks</div>
+                            <div class="tag">Tableau</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card-container">
+                        <img src="img/primaryassembly.png" alt="Primary Assembly Internship">
+                    </div>
+                    <div class="card-content">
+                        <h3>Primary Assembly Internship 2023</h3>
+                        <p><strong>Software Development Intern</strong></p>
+                        <p>Developed React and Web Assembly frameworks to improve the user experience.</p>
+                        <div class="tags">
+                            <div class="tag">React</div>
+                            <div class="tag">FrontEnd</div>
+                            <div class="tag">Figma</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card-container">
+                        <img src="img/novartis-logo.png" alt="Novartis Internship">
+                    </div>
+                    <div class="card-content">
+                        <h3>Novartis Summer Internship 2022</h3>
+                        <p><strong>Data Analyst Intern</strong></p>
+                        <p>Devised cost savings measures for the East Hanover campus.</p>
+                        <div class="tags">
+                            <div class="tag">Excel</div>
+                            <div class="tag">Powerpoint</div>
+                            <div class="tag">Forecasting</div>
+                            <div class="tag">Data Analytics</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Projects Column -->
+            <div class="card-container col-xl-6 col-lg-6 col-md-12 col-sm-12" style="display: flex; flex-direction: column;">
+                <h3>Projects</h3>
+                <div class="card">
+                    <div class="img-card-container">
+                        <img src="img/mogoproject.jpg" alt="Restaurant Tracker Project">
+                    </div>
+                    <div class="card-content">
+                        <h3>Restaurant Tracker Project</h3>
+                        <p><strong>Lead Fullstack Engineer</strong></p>
+                        <p>A full-stack web app for tracking restaurant experiences optimizing dining organization.</p>
+                        <div class="tags">
+                            <div class="tag">Node.js</div>
+                            <div class="tag">Express.js</div>
+                            <div class="tag">MongoDB</div>
+                            <div class="tag">Selenium</div>
+                            <div class="tag">Tailwind.css</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card-container">
+                        <img src="img/airplaneticketing.jpg" alt="Airplane Ticketing Database Project">
+                    </div>
+                    <div class="card-content">
+                        <h3>Airplane Ticketing Database Project</h3>
+                        <p><strong>Lead Data Engineer</strong></p>
+                        <p>Developed React and Web Assembly frameworks to improve the user experience.</p>
+                        <div class="tags">
+                            <div class="tag">MySQL</div>
+                            <div class="tag">Database Architecture</div>
+                            <div class="tag">Python</div>
+                            <div class="tag">Jinja</div>
+                            <div class="tag">Flask</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card-container">
+                        <img src="img/whackamole.jpg" alt="Whack A Mole Project">
+                    </div>
+                    <div class="card-content">
+                        <h3>Whack A Mole Java Project</h3>
+                        <p><strong>Co-Lead Back-End Engineer</strong></p>
+                        <p>Created Whack-A-Mole in Java with various difficulty levels and a leaderboard.</p>
+                        <div class="tags">
+                            <div class="tag">Java</div>
+                            <div class="tag">JFrame</div>
+                            <div class="tag">MySQL</div>
+                            <div class="tag">Threading</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card-container">
+                        <img src="img/pokedexproject.png" alt="React Pokedex Project">
+                    </div>
+                    <div class="card-content">
+                        <h3>React Pokedex Project</h3>
+                        <p><strong>Lead Front-End Developer</strong></p>
+                        <p>An interactive Pokedex containing 251 Pokémon and relevant information.</p>
+                        <div class="tags">
+                            <div class="tag">React.js</div>
+                            <div class="tag">RestAPI</div>
+                            <div class="tag">Node.js</div>
+                            <div class="tag">Material UI</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card-container">
+                        <img src="img/machinelearning.png" alt="Pneumonia Detection Model">
+                    </div>
+                    <div class="card-content">
+                        <h3>Pneumonia Detection Model</h3>
+                        <p><strong>Machine Learning Engineer</strong></p>
+                        <p>Created a machine learning model to detect pneumonia in patients.</p>
+                        <div class="tags">
+                            <div class="tag">Numpy</div>
+                            <div class="tag">Pandas</div>
+                            <div class="tag">PyTorch</div>
+                            <div class="tag">CUDA</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    
     <hr class="horizontal-line">
     <!--Contact me-->
     <section id="contact-me">
@@ -275,5 +421,7 @@
         </div>
     </section>
 </body>
+
+<script src="script.js"></script>
 
 </html>

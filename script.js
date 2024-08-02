@@ -2,7 +2,7 @@
 // script.js
 document.addEventListener("DOMContentLoaded", function() {
   const textElement = document.getElementById("words");
-  const text = " Software Engineer";
+  const text = " Data Engineer";
   let index = 0;
 
   function type() {
