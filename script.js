@@ -28,3 +28,7 @@ window.addEventListener('scroll', function() {
       textElement.classList.remove('hidden');
   }
 });
+
+function redirectTo(url) {
+  window.open(url, '_blank');
+}
