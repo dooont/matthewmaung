@@ -444,7 +444,7 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 700px;
+    /* min-height: 500px; */
     height: 90%;
     object-fit: cover;
     opacity: 0.8;
@@ -478,6 +478,8 @@ a {
 
 .nyu-block:hover {
     background-color: #45057a;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
 }
 
 .glass-text {
@@ -496,6 +498,18 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.more-below {
+    text-align: center;
+    margin-top: -95px;
+    
+}
+
+.hidden {
+    display: none;
+    transition: opacity 2s;
+    opacity: 0;
 }
 
 .glass-size {

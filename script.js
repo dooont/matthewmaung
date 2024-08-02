@@ -18,3 +18,13 @@ document.addEventListener("DOMContentLoaded", function() {
   textElement.innerHTML = ""; // Clear initial text
   type();
 });
+
+
+window.addEventListener('scroll', function() {
+  var textElement = document.getElementById('text-to-hide');
+  if (window.scrollY > 100) { // Adjust the scroll value to your needs
+      textElement.classList.add('hidden');
+  } else {
+      textElement.classList.remove('hidden');
+  }
+});
